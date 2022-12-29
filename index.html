@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    <style>
+        body{
+            padding: 5px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .checked {
+          margin-top: 8px;
+          color: orange;
+          font-size: 25px;
+        }
+
+        td{
+            width: 10%;
+            height: 30px;
+        }
+        </style>
+</head>
+<body>
+    <form>
+    <label><strong>Name</strong><span class="required" style="color: red;">*</span></label><br>
+    <input type="text" style="height: 20px;">
+    <label><span style="margin-right: 1%;"></span></label>
+    <input type="text" style="height: 20px;">
+    <br>
+    <sub>First</sub>
+    <span style="margin-right: 12.8%;"></span>
+    <sub>Last</sub>
+   <br>
+   <br>
+    <label><strong>Email</strong><span class="required" style="color: red;">*</span></label><br>
+    <input type="email" size="48" style="height: 20px;">
+    <br>
+    <br>
+    <label><strong>Your Experience</strong><span class="required" style="color: red;">*</span></label>
+    <br>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <p>Overall, how would you rate your experience with us?</p>
+</form>
+    <label><strong>How satisfied are you with</strong><span class="required" style="color: red;">*</span></label>
+    <br>
+    <br>
+    <table>
+        <tr style="background-color: white;">
+            <th style="width: 10em;"></th>
+            <th style="width: 10em;">Very Unsatisfied</th>
+            <th style="width: 10em;">Unsatisfied</th>
+            <th style="width: 10em;">Neutral</th>
+            <th style="width: 10em;">Satisfied</th>
+            <th style="width: 10em;">Very Satisfied</th>
+        </tr>
+    <tr style="background-color: lightslategrey;">
+        <td>Purchase</td>
+        <td style="text-align: center;"><input type="radio" name="Checked"></td>
+        <td style="text-align: center;"><input type="radio" name="Checked"></td>
+        <td style="text-align: center;"><input type="radio" name="Checked"></td>
+        <td style="text-align: center;"><input type="radio" name="Checked"></td>
+        <td style="text-align: center;"><input type="radio" name="Checked"></td>
+    </tr>
+    <tr style="background-color: white;">
+        <td>Service</td>
+        <td style="text-align: center;"><input type="radio" name="Checked"></td>
+        <td style="text-align: center;"><input type="radio" name="Checked"></td>
+        <td style="text-align: center;"><input type="radio" name="Checked"></td>
+        <td style="text-align: center;"><input type="radio" name="Checked"></td>
+        <td style="text-align: center;"><input type="radio" name="Checked"></td>
+    </tr>
+    <tr style="background-color: lightslategrey;">
+        <td>Company Overall</td>
+        <td style="text-align: center;"><input type="radio" name="Checked"></td>
+        <td style="text-align: center;"><input type="radio" name="Checked"></td>
+        <td style="text-align: center;"><input type="radio" name="Checked"></td>
+        <td style="text-align: center;"><input type="radio" name="Checked"></td>
+        <td style="text-align: center;"><input type="radio" name="Checked"></td>
+    </tr>
+</table>
+<br>
+<br>
+<label><strong>How likely are you to</strong><span class="required" style="color: red;">*</span></label>
+<br>
+<br>
+<table>
+    <tr style="background-color: white;">
+        <th style="width: 10em;"></th>
+        <th style="width: 10em;">Very Unlikely</th>
+        <th style="width: 10em;">Unlikely</th>
+        <th style="width: 10em;">Neutral</th>
+        <th style="width: 10em;">Likely</th>
+        <th style="width: 10em;">Very Likely</th>
+    </tr>
+<tr style="background-color: lightslategrey;">
+    <td>Buy from us again</td>
+    <td style="text-align: center;"><input type="radio" name="Checked"></td>
+    <td style="text-align: center;"><input type="radio" name="Checked"></td>
+    <td style="text-align: center;"><input type="radio" name="Checked"></td>
+    <td style="text-align: center;"><input type="radio" name="Checked"></td>
+    <td style="text-align: center;"><input type="radio" name="Checked"></td>
+</tr>
+<tr style="background-color: white;">
+    <td>Recommend our product to others</td>
+    <td style="text-align: center;"><input type="radio" name="Checked"></td>
+    <td style="text-align: center;"><input type="radio" name="Checked"></td>
+    <td style="text-align: center;"><input type="radio" name="Checked"></td>
+    <td style="text-align: center;"><input type="radio" name="Checked"></td>
+    <td style="text-align: center;"><input type="radio" name="Checked"></td>
+</tr>
+<tr style="background-color: lightslategrey;">
+    <td>Recommend our company to others</td>
+    <td style="text-align: center;"><input type="radio" name="Checked"></td>
+    <td style="text-align: center;"><input type="radio" name="Checked"></td>
+    <td style="text-align: center;"><input type="radio" name="Checked"></td>
+    <td style="text-align: center;"><input type="radio" name="Checked"></td>
+    <td style="text-align: center;"><input type="radio" name="Checked"></td>
+</tr>
+</table>
+<h4 style="margin-bottom: 1%;">Additional comments or suggestions</h4>
+<textarea style="width: 79%; height: 150px;"></textarea>
+<br>
+<button style="width: 100px; height: 30px;">submit</button>
+</body>
+</html>
